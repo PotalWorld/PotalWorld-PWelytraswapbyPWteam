@@ -1,2 +1,5 @@
-# PWelytraswap
-PWelytraswap is a Fabric client mod that saves you the trouble of equipping your elytra every time you want to fly.
+# PW Elytra Swap
+
+Client-side Fabric mod that swaps a chestplate for elytra when the player starts flying, and restores the chestplate on landing.
+
+Requires Fabric API for Minecraft 26.2.

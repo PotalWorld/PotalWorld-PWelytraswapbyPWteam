@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "pwelytraswap",
+  "version": "${version}",
+
+  "name": "PW Elytra Swap",
+  "description": "Automatically swaps a chestplate and elytra when flight begins or ends.",
+  "authors": [
+    "PWteam"
+  ],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.pwteam.pwelytraswap.PWElytraSwapClient"
+    ]
+  },
+  "mixins": [
+    "pwelytraswap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "java": ">=25",
+    "minecraft": "~26.2"
+  },
+  "recommends": {}
+}
